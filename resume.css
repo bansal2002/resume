@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8edeb;
+
+}
+.container 
+{
+    
+    width: 100%;
+    max-width: 800px;
+    min-height: 100px;
+    background: white;
+    margin: 50px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    box-shadow: 0 35px 55px rgba(45, 38, 109, 0.1);
+}
+.container .left_side{
+    background-color: #e8e8e4;
+    position: relative;
+    padding: 40px;
+    box-shadow: 0px 10px 20px #4c5185;
+}
+.profile_pic{
+    border-radius: 30%;
+    margin-bottom: 10%;
+}
+.profile{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.contact {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.title {
+    text-transform: uppercase;
+    font-weight:600 ;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contact ul{
+    position: relative;
+}
+.contact ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contact ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #9D5353;
+}
+.contact ul li span{
+    font-weight: 300;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container .right_side
+{
+    background-color: #ece4db;
+    position: relative;
+    padding: 40px;
+}
+
+.skill{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.skillset li{
+    margin: 10px;
+    display: inline-flex;
+    list-style: lower-greek;
+}
+
+.education h3{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.education{
+    padding-bottom: 20px;
+}
+
+.project h2{
+    padding-bottom: 20px;
+}
+
+.project p{
+    padding-bottom: 10px;
+}
+
+.language h3{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.training h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.training p{
+    padding-bottom: 10px;
+}
+
+.hobbies h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.hobbies ul{
+    padding-left: 20px;
+}
